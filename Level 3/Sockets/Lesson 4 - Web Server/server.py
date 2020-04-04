@@ -29,6 +29,7 @@ while True:
                             </a>
                         </body>
                     </html>""")
+        
     elif message == "GET /newpage HTTP/1.1\r\n":
         browser.sendall(b"""HTTP/1.1 200 OK\r\n
                 <!DOCTYPE html>
@@ -49,6 +50,7 @@ while True:
                             </a>
                         </body>
                     </html>""")
+        
     else:
         browser.sendall(b"""HTTP/1.1 200 OK\r\n
                 <!DOCTYPE html>
