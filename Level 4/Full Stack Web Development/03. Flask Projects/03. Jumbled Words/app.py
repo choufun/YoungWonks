@@ -2,10 +2,8 @@ from flask import *
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
 
-
-app = Flask('Jumbled Words')
-app.config['MONGO_URI'] = "mongodb://localhost:27017/jumbled-words-db"
-
+app = Flask("Jumbled Words")
+app.config["MONGO_URI"] = "mongodb://localhost:27017/jumbled-words-db"
 
 mongo = PyMongo(app)
 

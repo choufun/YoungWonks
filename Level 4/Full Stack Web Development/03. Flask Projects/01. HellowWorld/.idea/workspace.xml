@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc138fd2-e5ae-48fa-8db8-61f09a9630c7" name="Default Changelist" comment="" />
+    <list default="true" id="bc138fd2-e5ae-48fa-8db8-61f09a9630c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 2 - Server-Client Socket Chatbox/Client 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 2 - Server-Client Socket Chatbox/Client 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 2 - Server-Client Socket Chatbox/Server 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 2 - Server-Client Socket Chatbox/Server 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 3 - Webpage Downloader/Client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 4 - Web Server/Server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 5 - Multiplayer Online Game/Client 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 5 - Multiplayer Online Game/Client 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 5 - Multiplayer Online Game/Server 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/05. Sockets/Lesson 5 - Multiplayer Online Game/Server 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/06. Multithreading Programming/Lesson 1 -  Introduction/Exercise 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Level 3/06. Multithreading Programming/Lesson 1 -  Introduction/Exercise 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HellowWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HellowWorld.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03. Jumbled Words/.idea/03. Jumbled Words.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03. Jumbled Words/.idea/03. Jumbled Words.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03. Jumbled Words/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../03. Jumbled Words/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03. Jumbled Words/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../03. Jumbled Words/venv/Scripts/activate.bat" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +34,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
   <component name="ProjectId" id="1YXvfjtl8u6epfscUh4kNzGybtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02. Note Manager" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -26,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,13 +92,26 @@
       <option name="presentableId" value="Default" />
       <updated>1583101858653</updated>
       <workItem from="1583101860202" duration="906000" />
+      <workItem from="1589097808733" duration="149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/01__HellowWorld$HellowWorld.coverage" NAME="HellowWorld Coverage Results" MODIFIED="1589097937571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HellowWorld$HellowWorld.coverage" NAME="HellowWorld Coverage Results" MODIFIED="1583101975349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
