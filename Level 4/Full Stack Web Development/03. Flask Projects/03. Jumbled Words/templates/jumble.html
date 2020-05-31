@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Jumbled Words</title>
+        <title>Jumble</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body>
@@ -11,22 +11,30 @@
                 <div class="col s12">
                     <div class="card">
                         <div class="card-content">
-                            <h3>Home</h3>
+                            <h3>Jumble a Word</h3>
                             <h6>Author: Steven Chou</h6>
+                            <br>
+                            <form method="POST">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input name="entry" id="word" type="text" class="validate">
+                                        <label for="word">Enter Word for Jumbling</label>
+                                        <input type="submit">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col s12">
-                    <a href="/jumble" class="waves-effect waves-light btn-large">Jumble a Word</a>
+                    <a href="/" class="waves-effect waves-light btn-large">Home</a>
                     <a href="/figureout" class="waves-effect waves-light btn-large">Figure Out Words</a>
                     <a href="/database" class="waves-effect waves-light btn-large">Database</a>
                 </div>
             </div>
         </div>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>

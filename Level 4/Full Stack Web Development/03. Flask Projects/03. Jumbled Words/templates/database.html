@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Jumbled Words</title>
+        <title>Database</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body>
@@ -11,18 +11,27 @@
                 <div class="col s12">
                     <div class="card">
                         <div class="card-content">
-                            <h3>Home</h3>
+                            <h3>Database</h3>
                             <h6>Author: Steven Chou</h6>
+                            <br>
+                            <h7>Databases:</h7>
+                            {% for db in databases %}
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ db }}</p>
+                            {% endfor %}
+                            <br>
+                            <h7>Word Entries</h7>
+                            {% for document in results %}
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ document['word'] }}</p>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col s12">
+                    <a href="/" class="waves-effect waves-light btn-large">Home</a>
                     <a href="/jumble" class="waves-effect waves-light btn-large">Jumble a Word</a>
                     <a href="/figureout" class="waves-effect waves-light btn-large">Figure Out Words</a>
-                    <a href="/database" class="waves-effect waves-light btn-large">Database</a>
                 </div>
             </div>
         </div>
