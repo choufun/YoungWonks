@@ -13,6 +13,27 @@
                         <div class="card-content">
                             <h3>Figure Out Words</h3>
                             <h6>Author: Steven Chou</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Random Words</h3>
+                            {% for randomWord in results %}
+                                {{ randomWord }} <br/>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Figure Out Word</h3>
                             <form method="POST">
                                 <div class="row">
                                     <div class="input-field col s6">

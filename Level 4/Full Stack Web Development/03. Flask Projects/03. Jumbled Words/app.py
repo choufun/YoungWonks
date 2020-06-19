@@ -1,6 +1,7 @@
 from flask import *
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
+import random
 
 app = Flask("Jumbled Words")
 app.config["MONGO_URI"] = "mongodb://localhost:27017/jumbled-words-db"
@@ -52,7 +53,12 @@ def jumble2():
 def figureout():
     if request.method == 'GET':
         documents = mongo.db.wordcollection.find()
-        return render_template('figureout.html', results=documents)
+        words = []
+        for obj in documents:
+            word = list(obj['word'])
+            random.shuffle(word)
+            words.append(word)
+        return render_template('figureout.html', results=words)
 
     elif request.method == 'POST':
         pass
