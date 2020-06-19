@@ -29,6 +29,25 @@ def jumble():
         return redirect('/database')
 
 
+@app.route('/jumble2', methods=['GET', 'POST'])
+def jumble2():
+    if request.method == 'GET':
+        documents = mongo.db.wordcollection.find()
+        return render_template('jumble.html', results=documents)
+
+    elif request.method == 'POST':
+        word = request.form.get('entry')
+        print(word)
+        words = {'word': word}
+
+        client = MongoClient("mongodb://127.0.0.1:27017")
+        db = client['jumbled-words-db']
+        col = db['wordcollection']
+        col.insert(words)
+
+        return redirect('/database')
+
+
 @app.route('/figureout', methods=['GET', 'POST'])
 def figureout():
     if request.method == 'GET':
