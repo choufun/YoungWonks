@@ -19,8 +19,7 @@ def index():
 @app.route('/jumble', methods=['GET', 'POST'])
 def jumble():
     if request.method == 'GET':
-        documents = mongo.db.wordcollection.find()
-        return render_template('jumble.html', results=documents)
+        return render_template('jumble.html')
 
     elif request.method == 'POST':
         word = request.form.get('entry')
@@ -33,8 +32,7 @@ def jumble():
 @app.route('/jumble2', methods=['GET', 'POST'])
 def jumble2():
     if request.method == 'GET':
-        documents = mongo.db.wordcollection.find()
-        return render_template('jumble.html', results=documents)
+        return render_template('jumble2.html')
 
     elif request.method == 'POST':
         word = request.form.get('entry')
